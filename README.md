@@ -9,7 +9,7 @@ Reach for Creator Studio when you run a video or podcast channel alone and the p
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/creator-studio](https://skillme.dev/pack/creator-studio) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/creator-studio`
+- **With the skills CLI:** `npx skills add SkillMedev/creator-studio`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
