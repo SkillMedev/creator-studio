@@ -1,16 +1,17 @@
 # Creator Studio
 
-**For solo video & podcast creators: script, hook, package, and distribute every episode.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For solo video & podcast creators: script, hook, package, and distribute every episode.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-creator-studio).
 
 Reach for Creator Studio when you run a video or podcast channel alone and the production line keeps stalling - a blank script, a weak hook, a thumbnail that doesn't earn the click, show notes you skip, and a calendar you can't sustain. It carries one episode end to end: write a retention-built YouTube script against the 30-second cliff with a beat-sheet template, open short-form with a 3-second hook (good/bad pairs per format), package the video with a high-CTR thumbnail spec, ship complete show notes, turn one pillar piece into 10+ platform-native posts with a derivation map, run webinars that convert against real show-up benchmarks, and lock a cadence you can actually keep. Built for creators who publish every week, not occasionally.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/creator-studio](https://skillme.dev/pack/creator-studio) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/creator-studio?utm_source=github&utm_medium=readme&utm_campaign=pack-creator-studio) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add creator-content-calendar youtube-script-writer video-hook-writer thumbnail-concept show-notes-writer content-repurposing webinar-funnel-builder --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/creator-studio`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -25,4 +26,4 @@ Reach for Creator Studio when you run a video or podcast channel alone and the p
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-creator-studio).
